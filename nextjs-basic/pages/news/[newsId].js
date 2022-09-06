@@ -12,6 +12,8 @@ const DetailPage = () => {
   // send a request to the backend API
   // to fetch the news item with newsId
   
+  {/* newsId에 undefined가 할당됨 */}
+
   return <h1>{`${newsId} Page`}</h1>
 }
 
